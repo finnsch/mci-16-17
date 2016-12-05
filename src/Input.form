@@ -363,15 +363,18 @@
                                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="10"/>
                                   <text value="Physical D."/>
                                   <toolTipText value="Physical Demand"/>
                                 </properties>
                               </component>
                               <component id="7069" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Mental D."/>
                                   <toolTipText value="Mental Demand"/>
                                 </properties>
@@ -397,9 +400,11 @@
                               </component>
                               <component id="f86ed" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Mental D."/>
                                   <toolTipText value="Mental Demand"/>
                                 </properties>
@@ -425,9 +430,11 @@
                               </component>
                               <component id="b3f27" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Mental D."/>
                                   <toolTipText value="Mental Demand"/>
                                 </properties>
@@ -453,9 +460,11 @@
                               </component>
                               <component id="53642" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Mental D."/>
                                   <toolTipText value="Mental Demand"/>
                                 </properties>
@@ -481,9 +490,11 @@
                               </component>
                               <component id="b1925" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Mental D."/>
                                   <toolTipText value="Mental Demand"/>
                                 </properties>
@@ -519,9 +530,11 @@
                               </component>
                               <component id="ea1b6" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Physical D."/>
                                   <toolTipText value="Physical Demand"/>
                                 </properties>
@@ -547,9 +560,11 @@
                               </component>
                               <component id="1911d" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Physical D."/>
                                   <toolTipText value="Physical Demand"/>
                                 </properties>
@@ -575,9 +590,11 @@
                               </component>
                               <component id="6c511" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Physical D."/>
                                   <toolTipText value="Physical Demand"/>
                                 </properties>
@@ -603,9 +620,11 @@
                               </component>
                               <component id="49f6c" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Physical D."/>
                                   <toolTipText value="Physical Demand"/>
                                 </properties>
@@ -631,9 +650,11 @@
                               </component>
                               <component id="48ea7" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Performance"/>
                                   <toolTipText value="Performance"/>
                                 </properties>
@@ -669,9 +690,11 @@
                               </component>
                               <component id="6f8ec" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Frustration"/>
                                   <toolTipText value="Frustration"/>
                                 </properties>
@@ -697,9 +720,11 @@
                               </component>
                               <component id="8b01b" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Effort"/>
                                   <toolTipText value="Effort"/>
                                 </properties>
@@ -725,9 +750,11 @@
                               </component>
                               <component id="7e9b9" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Frustration"/>
                                   <toolTipText value="Frustration"/>
                                 </properties>
@@ -753,9 +780,11 @@
                               </component>
                               <component id="81bcf" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Effort"/>
                                   <toolTipText value="Effort"/>
                                 </properties>
@@ -781,9 +810,11 @@
                               </component>
                               <component id="f2789" class="javax.swing.JRadioButton" default-binding="true">
                                 <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
                                 </constraints>
                                 <properties>
+                                  <horizontalAlignment value="11"/>
+                                  <horizontalTextPosition value="10"/>
                                   <text value="Frustration"/>
                                   <toolTipText value="Frustration"/>
                                 </properties>

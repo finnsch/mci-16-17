@@ -1,7 +1,11 @@
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.Enumeration;
 /**
  * Created by finn on 04/12/16.
  */
@@ -33,6 +37,8 @@ public class Input extends JFrame {
     private JSlider frSlider;
     private JButton saveTestResultsButton;
 
+    private ResultsDatabase resultsDatabase = ResultsDatabase.getInstance();
+
     public Input() {
         setTitle("TLX Input");
         setLocationRelativeTo(null);
@@ -41,6 +47,70 @@ public class Input extends JFrame {
         pack();
         setLocationRelativeTo(null);
         setVisible(true);
+
+        saveTestResultsButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                ArrayList<Enumeration> buttonGroupList = new ArrayList<>();
+                int mdCount = 0, pdCount = 0, tdCount = 0, opCount = 0, frCount = 0, efCount = 0;
+
+                buttonGroupList.add(efFRButtonGroup.getElements());
+                buttonGroupList.add(opEFButtonGroup.getElements());
+                buttonGroupList.add(opFRButtonGroup.getElements());
+                buttonGroupList.add(tdEFButtonGroup.getElements());
+                buttonGroupList.add(tdFRButtonGroup.getElements());
+                buttonGroupList.add(tdOPButtonGroup.getElements());
+                buttonGroupList.add(efPDButtonGroup.getElements());
+                buttonGroupList.add(frPDButtonGroup.getElements());
+                buttonGroupList.add(opPDButtonGroup.getElements());
+                buttonGroupList.add(tdPDButtonGroup.getElements());
+                buttonGroupList.add(efMDButtonGroup.getElements());
+                buttonGroupList.add(frMDButtonGroup.getElements());
+                buttonGroupList.add(opMDButtonGroup.getElements());
+                buttonGroupList.add(tdMDButtonGroup.getElements());
+                buttonGroupList.add(pdMDButtonGroup.getElements());
+
+                for(Enumeration elements: buttonGroupList )
+                    while (elements.hasMoreElements()) {
+                        AbstractButton button = (AbstractButton) elements.nextElement();
+                        if (button.isSelected()) {
+                            switch (button.getText()) {
+                                case "Mental D.":
+                                    mdCount++;
+                                    break;
+                                case "Physical D.":
+                                    pdCount++;
+                                    break;
+                                case "Temporal D.":
+                                    tdCount++;
+                                    break;
+                                case "Performance":
+                                    opCount++;
+                                    break;
+                                case "Effort":
+                                    efCount++;
+                                    break;
+                                case "Frustration":
+                                    frCount++;
+                                    break;
+                                default:
+                                    System.out.println("Ohoh, something is horribly wrong!!");
+                            }
+                        }
+                    }
+
+                TLXResult result = new TLXResult(
+                        mdSlider.getValue(), pdSlider.getValue(), tdSlider.getValue(),
+                        opSlider.getValue(), efSlider.getValue(), frSlider.getValue(),
+                        mdCount, pdCount, tdCount, opCount, frCount, efCount );
+
+                resultsDatabase.add(result);
+
+                JOptionPane.showMessageDialog(null, "Thank You for participating in this wonderful survey!");
+
+                dispose();
+            }
+        });
+
     }
 
 }
