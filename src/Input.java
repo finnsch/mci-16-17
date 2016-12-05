@@ -31,6 +31,7 @@ public class Input extends JFrame {
     private JSlider opSlider;
     private JSlider efSlider;
     private JSlider frSlider;
+    private JButton saveTestResultsButton;
 
     public Input() {
         setTitle("TLX Input");

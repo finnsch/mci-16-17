@@ -2,10 +2,10 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Input">
   <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="CardLayout" hgap="0" vgap="0">
     <constraints>
-      <xy x="20" y="20" width="853" height="603"/>
+      <xy x="20" y="20" width="853" height="675"/>
     </constraints>
     <properties/>
-    <border type="none"/>
+    <border type="etched"/>
     <children>
       <tabbedpane id="158af" binding="tabbedPane1" default-binding="true">
         <constraints>
@@ -14,515 +14,28 @@
         <properties/>
         <border type="none"/>
         <children>
-          <grid id="2c95c" layout-manager="CardLayout" hgap="0" vgap="0">
-            <constraints>
-              <tabbedpane title="Weighting"/>
-            </constraints>
-            <properties/>
-            <border type="none"/>
-            <children>
-              <grid id="c9517" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                <margin top="0" left="0" bottom="0" right="0"/>
-                <constraints>
-                  <card name="Card2"/>
-                </constraints>
-                <properties/>
-                <border type="none"/>
-                <children>
-                  <grid id="11c10" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                    <margin top="0" left="0" bottom="0" right="0"/>
-                    <constraints>
-                      <grid row="1" column="0" row-span="5" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                    </constraints>
-                    <properties/>
-                    <border type="none"/>
-                    <children>
-                      <grid id="6d628" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                        <margin top="0" left="0" bottom="0" right="0"/>
-                        <constraints>
-                          <grid row="0" column="0" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                        </constraints>
-                        <properties/>
-                        <border type="bevel-raised"/>
-                        <children>
-                          <grid id="8c500" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="ede41" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="PD"/>
-                                  <toolTipText value="Physical Demand"/>
-                                </properties>
-                              </component>
-                              <component id="7069" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="MD"/>
-                                  <toolTipText value="Mental Demand"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="2466d" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="7921a" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="TD"/>
-                                  <toolTipText value="Temporal Demand"/>
-                                </properties>
-                              </component>
-                              <component id="f86ed" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="MD"/>
-                                  <toolTipText value="Mental Demand"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="d55b1" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="d696a" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="OP"/>
-                                  <toolTipText value="Performance"/>
-                                </properties>
-                              </component>
-                              <component id="b3f27" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="MD"/>
-                                  <toolTipText value="Mental Demand"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="5788" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="7a2f6" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="FR"/>
-                                  <toolTipText value="Frustration"/>
-                                </properties>
-                              </component>
-                              <component id="53642" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="MD"/>
-                                  <toolTipText value="Mental Demand"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="de3c5" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="894b9" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="EF"/>
-                                  <toolTipText value="Effort"/>
-                                </properties>
-                              </component>
-                              <component id="b1925" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="MD"/>
-                                  <toolTipText value="Mental Demand"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                        </children>
-                      </grid>
-                      <grid id="cc96c" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                        <margin top="0" left="0" bottom="0" right="0"/>
-                        <constraints>
-                          <grid row="0" column="1" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                        </constraints>
-                        <properties/>
-                        <border type="bevel-raised"/>
-                        <children>
-                          <grid id="fec2b" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="35b23" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="TD"/>
-                                  <toolTipText value="Temporal Demand"/>
-                                </properties>
-                              </component>
-                              <component id="ea1b6" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="PD"/>
-                                  <toolTipText value="Physical Demand"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="dd1e3" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="54e1a" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="OP"/>
-                                  <toolTipText value="Performance"/>
-                                </properties>
-                              </component>
-                              <component id="1911d" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="PD"/>
-                                  <toolTipText value="Physical Demand"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="eeb5a" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="5ecf1" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="FR"/>
-                                  <toolTipText value="Frustration"/>
-                                </properties>
-                              </component>
-                              <component id="6c511" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="PD"/>
-                                  <toolTipText value="Physical Demand"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="4522e" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="78069" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="EF"/>
-                                  <toolTipText value="Effort"/>
-                                </properties>
-                              </component>
-                              <component id="49f6c" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="PD"/>
-                                  <toolTipText value="Physical Demand"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="5c164" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="998c0" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="TD"/>
-                                  <toolTipText value="Temporal Deman"/>
-                                </properties>
-                              </component>
-                              <component id="48ea7" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="OP"/>
-                                  <toolTipText value="Performance"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                        </children>
-                      </grid>
-                      <grid id="3186d" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                        <margin top="0" left="0" bottom="0" right="0"/>
-                        <constraints>
-                          <grid row="0" column="2" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                        </constraints>
-                        <properties/>
-                        <border type="bevel-raised"/>
-                        <children>
-                          <grid id="bdee8" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="af746" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="TD"/>
-                                  <toolTipText value="Temporal Demand"/>
-                                </properties>
-                              </component>
-                              <component id="6f8ec" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="FR"/>
-                                  <toolTipText value="Frustration"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="4f4fe" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="7007f" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="TD"/>
-                                  <toolTipText value="Temporal Demand"/>
-                                </properties>
-                              </component>
-                              <component id="8b01b" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="EF"/>
-                                  <toolTipText value="Effort"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="d1fa4" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="d4e0c" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="OP"/>
-                                  <toolTipText value="Performance"/>
-                                </properties>
-                              </component>
-                              <component id="7e9b9" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="FR"/>
-                                  <toolTipText value="Frustration"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="5e6e2" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="3a33a" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="OP"/>
-                                  <toolTipText value="Performance"/>
-                                </properties>
-                              </component>
-                              <component id="81bcf" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="EF"/>
-                                  <toolTipText value="Effort"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                          <grid id="f385c" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                            <margin top="0" left="0" bottom="0" right="0"/>
-                            <constraints>
-                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                            </constraints>
-                            <properties/>
-                            <border type="none"/>
-                            <children>
-                              <component id="a35e0" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="EF"/>
-                                  <toolTipText value="Effort"/>
-                                </properties>
-                              </component>
-                              <component id="f2789" class="javax.swing.JRadioButton" default-binding="true">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                                </constraints>
-                                <properties>
-                                  <text value="FR"/>
-                                  <toolTipText value="Frustration"/>
-                                </properties>
-                              </component>
-                            </children>
-                          </grid>
-                        </children>
-                      </grid>
-                    </children>
-                  </grid>
-                  <component id="daaba" class="javax.swing.JLabel">
-                    <constraints>
-                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                    </constraints>
-                    <properties>
-                      <text value="Select the member of each pair that provided the most significant source of workload variation in these tasks."/>
-                    </properties>
-                  </component>
-                </children>
-              </grid>
-            </children>
-          </grid>
           <grid id="eed4" layout-manager="CardLayout" hgap="0" vgap="0">
             <constraints>
-              <tabbedpane title="Rating"/>
+              <tabbedpane title="1. Rating"/>
             </constraints>
             <properties/>
             <border type="none"/>
             <children>
-              <grid id="95037" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+              <grid id="95037" layout-manager="GridLayoutManager" row-count="13" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                 <margin top="0" left="0" bottom="0" right="0"/>
                 <constraints>
                   <card name="Card1"/>
                 </constraints>
                 <properties/>
-                <border type="none"/>
+                <border type="etched"/>
                 <children>
                   <grid id="2612f" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                     <margin top="0" left="0" bottom="0" right="0"/>
                     <constraints>
-                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties/>
-                    <border type="bevel-raised"/>
+                    <border type="none"/>
                     <children>
                       <component id="5ad0" class="javax.swing.JLabel">
                         <constraints>
@@ -559,10 +72,10 @@
                   <grid id="c95a3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                     <margin top="0" left="0" bottom="0" right="0"/>
                     <constraints>
-                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties/>
-                    <border type="bevel-raised"/>
+                    <border type="none"/>
                     <children>
                       <component id="66c88" class="javax.swing.JLabel">
                         <constraints>
@@ -599,10 +112,10 @@
                   <grid id="71817" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                     <margin top="0" left="0" bottom="0" right="0"/>
                     <constraints>
-                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties/>
-                    <border type="bevel-raised"/>
+                    <border type="none"/>
                     <children>
                       <component id="c5990" class="javax.swing.JLabel">
                         <constraints>
@@ -639,10 +152,10 @@
                   <grid id="15ab3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                     <margin top="0" left="0" bottom="0" right="0"/>
                     <constraints>
-                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties/>
-                    <border type="bevel-raised"/>
+                    <border type="none"/>
                     <children>
                       <component id="fc82c" class="javax.swing.JLabel">
                         <constraints>
@@ -679,10 +192,10 @@
                   <grid id="240d5" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                     <margin top="0" left="0" bottom="0" right="0"/>
                     <constraints>
-                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties/>
-                    <border type="bevel-raised"/>
+                    <border type="none"/>
                     <children>
                       <component id="5bff4" class="javax.swing.JLabel">
                         <constraints>
@@ -719,10 +232,10 @@
                   <grid id="18778" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                     <margin top="0" left="0" bottom="0" right="0"/>
                     <constraints>
-                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties/>
-                    <border type="bevel-raised"/>
+                    <border type="none"/>
                     <children>
                       <component id="d8ead" class="javax.swing.JLabel">
                         <constraints>
@@ -758,14 +271,586 @@
                   </grid>
                   <component id="29e65" class="javax.swing.JLabel">
                     <constraints>
-                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="30"/>
+                      </grid>
                     </constraints>
                     <properties>
                       <text value="Place a mark on each scale that represents the magnitude of each factor in the task you just performed."/>
                     </properties>
                   </component>
+                  <component id="6b578" class="javax.swing.JSeparator">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="9ff80" class="javax.swing.JSeparator">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="4fb91" class="javax.swing.JSeparator">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="da196" class="javax.swing.JSeparator">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="8d05" class="javax.swing.JSeparator">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="3bc60" class="javax.swing.JSeparator">
+                    <constraints>
+                      <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
                 </children>
               </grid>
+            </children>
+          </grid>
+          <grid id="2c95c" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="2. Weighting"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="c9517" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <card name="Card2"/>
+                </constraints>
+                <properties/>
+                <border type="etched"/>
+                <children>
+                  <grid id="11c10" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="5" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="6d628" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <grid id="8c500" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="ede41" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Physical D."/>
+                                  <toolTipText value="Physical Demand"/>
+                                </properties>
+                              </component>
+                              <component id="7069" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Mental D."/>
+                                  <toolTipText value="Mental Demand"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="2466d" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="7921a" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Temporal D."/>
+                                  <toolTipText value="Temporal Demand"/>
+                                </properties>
+                              </component>
+                              <component id="f86ed" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Mental D."/>
+                                  <toolTipText value="Mental Demand"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="d55b1" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="d696a" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Performance"/>
+                                  <toolTipText value="Performance"/>
+                                </properties>
+                              </component>
+                              <component id="b3f27" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Mental D."/>
+                                  <toolTipText value="Mental Demand"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="5788" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="7a2f6" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Frustration"/>
+                                  <toolTipText value="Frustration"/>
+                                </properties>
+                              </component>
+                              <component id="53642" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Mental D."/>
+                                  <toolTipText value="Mental Demand"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="de3c5" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="894b9" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Effort"/>
+                                  <toolTipText value="Effort"/>
+                                </properties>
+                              </component>
+                              <component id="b1925" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Mental D."/>
+                                  <toolTipText value="Mental Demand"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="cc96c" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <grid id="fec2b" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="35b23" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Temporal D."/>
+                                  <toolTipText value="Temporal Demand"/>
+                                </properties>
+                              </component>
+                              <component id="ea1b6" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Physical D."/>
+                                  <toolTipText value="Physical Demand"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="dd1e3" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="54e1a" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Performance"/>
+                                  <toolTipText value="Performance"/>
+                                </properties>
+                              </component>
+                              <component id="1911d" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Physical D."/>
+                                  <toolTipText value="Physical Demand"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="eeb5a" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="5ecf1" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Frustration"/>
+                                  <toolTipText value="Frustration"/>
+                                </properties>
+                              </component>
+                              <component id="6c511" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Physical D."/>
+                                  <toolTipText value="Physical Demand"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="4522e" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="78069" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Effort"/>
+                                  <toolTipText value="Effort"/>
+                                </properties>
+                              </component>
+                              <component id="49f6c" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Physical D."/>
+                                  <toolTipText value="Physical Demand"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="5c164" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="998c0" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Temporal D."/>
+                                  <toolTipText value="Temporal Deman"/>
+                                </properties>
+                              </component>
+                              <component id="48ea7" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Performance"/>
+                                  <toolTipText value="Performance"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="3186d" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="2" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <grid id="bdee8" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="af746" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Temporal D."/>
+                                  <toolTipText value="Temporal Demand"/>
+                                </properties>
+                              </component>
+                              <component id="6f8ec" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Frustration"/>
+                                  <toolTipText value="Frustration"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="4f4fe" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="7007f" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Temporal D."/>
+                                  <toolTipText value="Temporal Demand"/>
+                                </properties>
+                              </component>
+                              <component id="8b01b" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Effort"/>
+                                  <toolTipText value="Effort"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="d1fa4" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="d4e0c" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Performance"/>
+                                  <toolTipText value="Performance"/>
+                                </properties>
+                              </component>
+                              <component id="7e9b9" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Frustration"/>
+                                  <toolTipText value="Frustration"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="5e6e2" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="3a33a" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Performance"/>
+                                  <toolTipText value="Performance"/>
+                                </properties>
+                              </component>
+                              <component id="81bcf" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Effort"/>
+                                  <toolTipText value="Effort"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="f385c" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="a35e0" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Effort"/>
+                                  <toolTipText value="Effort"/>
+                                </properties>
+                              </component>
+                              <component id="f2789" class="javax.swing.JRadioButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="Frustration"/>
+                                  <toolTipText value="Frustration"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <component id="daaba" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Select the member of each pair that provided the most significant source of workload variation in these tasks."/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="8193d" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="3. Finish Survey"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.5"/>
+              <autoscrolls value="false"/>
+              <name value=""/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <component id="ee78e" class="javax.swing.JButton" binding="saveTestResultsButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Save Test Results"/>
+                </properties>
+              </component>
+              <component id="2dd93" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <requestFocusEnabled value="true"/>
+                  <text value="Make sure you filled out every field and then click the button below!"/>
+                  <verticalAlignment value="1"/>
+                </properties>
+              </component>
+              <component id="4905b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Afterwards, you will be redirected to the main menu. "/>
+                  <verticalAlignment value="1"/>
+                </properties>
+              </component>
             </children>
           </grid>
         </children>
