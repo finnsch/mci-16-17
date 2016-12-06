@@ -26,4 +26,8 @@ public class ResultsDatabase {
         return this.resultList;
     }
 
+    public int resultCount() {
+        return resultList.size();
+    }
+
 }

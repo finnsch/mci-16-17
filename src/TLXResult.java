@@ -53,8 +53,39 @@ public class TLXResult {
                 frSliderValue * frCount;
     }
 
-    public int getResultAverage() {
-        return (int) (getResultSum() / (mdCount+pdCount+tdCount+opCount+efCount+frCount));
+    public int getWeights() {
+        return mdCount+pdCount+tdCount+opCount+efCount+frCount;
     }
 
+    public int getResultAverage() {
+        return (int) (getResultSum() / getWeights());
+    }
+
+    public String getDate() {
+        return this.date;
+    }
+
+    public int getMdSliderValue() {
+        return this.mdSliderValue;
+    }
+
+    public int getPdSliderValue() {
+        return this.pdSliderValue;
+    }
+
+    public int getTdSliderValue() {
+        return this.tdSliderValue;
+    }
+
+    public int getOpSliderValue() {
+        return this.opSliderValue;
+    }
+
+    public int getEfSliderValue() {
+        return this.efSliderValue;
+    }
+
+    public int getFrSliderValue() {
+        return this.frSliderValue;
+    }
 }

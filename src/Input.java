@@ -69,10 +69,13 @@ public class Input extends JFrame {
                 buttonGroupList.add(tdMDButtonGroup.getElements());
                 buttonGroupList.add(pdMDButtonGroup.getElements());
 
+                int selectCounter = 0; //to see if all buttons are filled out
+
                 for(Enumeration elements: buttonGroupList )
                     while (elements.hasMoreElements()) {
                         AbstractButton button = (AbstractButton) elements.nextElement();
                         if (button.isSelected()) {
+                            selectCounter++;
                             switch (button.getText()) {
                                 case "Mental D.":
                                     mdCount++;
@@ -98,16 +101,17 @@ public class Input extends JFrame {
                         }
                     }
 
-                TLXResult result = new TLXResult(
-                        mdSlider.getValue(), pdSlider.getValue(), tdSlider.getValue(),
-                        opSlider.getValue(), efSlider.getValue(), frSlider.getValue(),
-                        mdCount, pdCount, tdCount, opCount, frCount, efCount );
-
-                resultsDatabase.add(result);
-
-                JOptionPane.showMessageDialog(null, "Thank You for participating in this wonderful survey!");
-
-                dispose();
+                if(selectCounter == 15) {
+                    TLXResult result = new TLXResult(
+                            mdSlider.getValue(), pdSlider.getValue(), tdSlider.getValue(),
+                            opSlider.getValue(), efSlider.getValue(), frSlider.getValue(),
+                            mdCount, pdCount, tdCount, opCount, frCount, efCount);
+                    resultsDatabase.add(result);
+                    JOptionPane.showMessageDialog(null, "Thank You for participating in this wonderful survey!");
+                    dispose();
+                } else {
+                    JOptionPane.showMessageDialog(null, "Ohoh, make sure you filled out all weights!", "You did something wrong!", JOptionPane.ERROR_MESSAGE);
+                }
             }
         });
 
