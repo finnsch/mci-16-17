@@ -1,9 +1,10 @@
 import java.util.Date;
+import java.io.Serializable;
 
 /**
  * Created by Stephan on 05.12.16.
  */
-public class TLXResult {
+public class TLXResult implements Serializable {
 
     private int mdSliderValue;
     private int pdSliderValue;

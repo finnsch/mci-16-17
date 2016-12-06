@@ -30,4 +30,8 @@ public class ResultsDatabase {
         return resultList.size();
     }
 
+    public void setResultList(ArrayList<TLXResult> resultList) {
+        this.resultList = resultList;
+    }
+
 }
