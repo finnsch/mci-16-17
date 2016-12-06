@@ -1,18 +1,29 @@
 import javax.swing.*;
+import java.awt.Dimension;
 
 /**
  * Created by finn on 05/12/16.
  */
 public class Analysis extends JFrame {
-    private JPanel resultsPanel;
+    private JScrollPane scrollPane;
     private ResultsDatabase resultsDatabase = ResultsDatabase.getInstance();
 
     public Analysis() {
         setTitle("TLX Analysis");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setContentPane(resultsPanel);
-        resultsPanel.setLayout(new BoxLayout(resultsPanel, BoxLayout.PAGE_AXIS));
+
+        JPanel resultsPanel = new JPanel();
+        BoxLayout panelLayout = new BoxLayout(resultsPanel, BoxLayout.Y_AXIS);
+        resultsPanel.setLayout(panelLayout);
+
+        scrollPane.setViewportView(resultsPanel);
+        scrollPane.setPreferredSize(new Dimension(400, 400));
+        scrollPane.setSize(400, 400);
+        setContentPane(scrollPane);
+
+        pack();
         setVisible(true);
+        setLocationRelativeTo(null);
 
         if(resultsDatabase.resultCount() != 0) {
 
@@ -72,8 +83,5 @@ public class Analysis extends JFrame {
             resultsPanel.add(labelText2);
 
         }
-
-        pack();
-        setLocationRelativeTo(null);
     }
 }
