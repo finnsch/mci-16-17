@@ -59,7 +59,7 @@ public class TLXResult implements Serializable {
     }
 
     public int getResultAverage() {
-        return (int) (getResultSum() / getWeights());
+        return Math.round((float)getResultSum() / getWeights());
     }
 
     public String getDate() {
