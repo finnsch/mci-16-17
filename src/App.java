@@ -15,6 +15,8 @@ public class App extends JFrame {
     private JButton saveResultsButton;
     private JButton loadResultsButton;
 
+    private ResultsDatabase resultsDatabase = ResultsDatabase.getInstance();
+
     private String resultsFilename = "results.ser";
 
     public App() {
@@ -44,7 +46,11 @@ public class App extends JFrame {
         saveResultsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                saveTestResultsToFile();
+                if(resultsDatabase.resultCount() != 0) {
+                    saveTestResultsToFile();
+                } else {
+                    JOptionPane.showMessageDialog(null, "There are no results to save!", "No results!", JOptionPane.WARNING_MESSAGE);
+                }
             }
         });
 

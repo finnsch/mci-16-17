@@ -17,8 +17,8 @@ public class Analysis extends JFrame {
         resultsPanel.setLayout(panelLayout);
 
         scrollPane.setViewportView(resultsPanel);
-        scrollPane.setPreferredSize(new Dimension(400, 400));
-        scrollPane.setSize(400, 400);
+        scrollPane.setPreferredSize(new Dimension(600, 400));
+        scrollPane.setSize(600, 400);
         setContentPane(scrollPane);
 
         pack();
@@ -79,7 +79,7 @@ public class Analysis extends JFrame {
         } else {
             JLabel labelText = new JLabel("There are no saved Survey Results.");
             resultsPanel.add(labelText);
-            JLabel labelText2 = new JLabel("You can create one by clicking on 'New TLX Survey in the Main Menu'.");
+            JLabel labelText2 = new JLabel("You can create one by clicking on 'New TLX Survey' in the Main Menu.");
             resultsPanel.add(labelText2);
 
         }
